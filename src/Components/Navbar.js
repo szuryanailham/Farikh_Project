@@ -45,6 +45,7 @@ const Navbar = () => {
           </ul>
           {/* Email address */}
           <h3 className="hidden md:block font-Trap font-bold">User@gmail.com</h3>
+
           {/* BurgerMenu */}
           <div
             onClick={() => {

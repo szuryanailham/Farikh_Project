@@ -1,6 +1,7 @@
 import React from "react";
 import { Category, Category2, Category3 } from "../assets/Utils";
 import { categoryDesc } from "../constants";
+import { motion } from "framer-motion";
 const Categories = () => {
   return (
     <section id="Gallery">
@@ -30,7 +31,19 @@ const Categories = () => {
           </div>
           <div className="lg:row-start-3 lg:col-span-3 flex justify-center gap-4 py-10 px-4">
             <div className="w-full md:w-[80%]">
-              <p className=" font-Trap text-lg leading-relaxed text-end text-white">{categoryDesc}</p>
+              <motion.p
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{
+                  ease: "linear",
+                  duration: 1,
+                  x: { duration: 1.5 },
+                }}
+                className=" font-Trap text-lg leading-relaxed text-end text-white"
+              >
+                {categoryDesc}
+              </motion.p>
             </div>
           </div>
         </div>
