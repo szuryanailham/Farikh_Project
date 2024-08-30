@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav ref={navRef} className="shadow-2xl sticky bg-baseColor w-full">
+      <nav ref={navRef} className="shadow-2xl bg-baseColor fixed w-full">
         <div className="max-w-screen-xl max-h-min flex flex-wrap items-center justify-between mx-auto py-4 px-7 font-Trap z-[100">
           {/* logo brand */}
           <a href="#home" className="cursor-pointer">
