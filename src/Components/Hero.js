@@ -1,26 +1,5 @@
 import React from "react";
 import { SubTitle } from "../constants";
-import { SplitText } from "gsap-trial/SplitText";
-import gsap from "gsap-trial";
-import { ScrollTrigger } from "gsap-trial/ScrollTrigger";
-gsap.registerPlugin(SplitText, ScrollTrigger);
-
-let mySplitText = new SplitText(".split", {
-  type: "chars",
-});
-let chars = mySplitText.chars;
-gsap.from(chars, {
-  yPercent: 130,
-  stagger: 0.02,
-  ease: "back.out",
-  lazy: false,
-  duration: 1,
-  ScrollTrigger: {
-    trigger: ".split",
-    start: "top 80%",
-    markers: true,
-  },
-});
 const Hero = () => {
   return (
     <>
