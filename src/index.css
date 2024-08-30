@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Trap-Black";
+  src: url("/src/assets/Font/Trap-Black.otf") format("opentype");
+}
