@@ -34,9 +34,14 @@ const Hero = () => {
         </motion.p>
         <motion.button
           whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 1.1 }}
-          drag="x"
-          dragConstraints={{ left: -100, right: 100 }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{
+            ease: "linear",
+            duration: 1,
+            y: { duration: 2 },
+          }}
           type="button"
           class="mt-10 text-black bg-thirdColor focus:ring-2 focus:ring-black rounded-lg text-sm px-5 py-2.5 md:px-7 md:py-4 me-2 mb-2 font-bold"
         >

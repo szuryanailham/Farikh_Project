@@ -14,12 +14,43 @@ const Categories = () => {
       {/* Image Category */}
       <div className="p-6 md:p-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div className="lg:col-start-2 lg:row-start-2">
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              ease: "linear",
+              duration: 1,
+              x: { duration: 2 },
+            }}
+            className="lg:col-start-2 lg:row-start-2"
+          >
             <div className="w-full h-[400px] lg:h-[400px] bg-cover bg-center bg-no-repeat rounded-lg" style={{ backgroundImage: `url(${Category2})` }}></div>
-          </div>
-          <div className="lg:col-start-3 lg:row-start-1">
-            <div className="w-full h-[400px] lg:h-[400px] bg-cover bg-center bg-no-repeat rounded-lg" style={{ backgroundImage: `url(${Category})` }}></div>
-          </div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{
+              ease: "linear",
+              duration: 1,
+              x: { duration: 2 },
+            }}
+            className="lg:col-start-3 lg:row-start-1"
+          >
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{
+                ease: "linear",
+                duration: 1,
+                x: { duration: 2 },
+              }}
+              className="w-full h-[400px] lg:h-[400px] bg-cover bg-center bg-no-repeat rounded-lg"
+              style={{ backgroundImage: `url(${Category})` }}
+            ></motion.div>
+          </motion.div>
           <div className="lg:col-start-1 lg:row-start-3">
             <div className="w-full h-[400px] lg:h-[400px] bg-cover bg-center bg-no-repeat rounded-lg" style={{ backgroundImage: `url(${Category3})` }}></div>
           </div>
