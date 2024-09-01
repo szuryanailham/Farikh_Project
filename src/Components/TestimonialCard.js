@@ -2,7 +2,7 @@ import React from "react";
 
 const TestimonialCard = ({ image, name, rating, testimony }) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg py-7 px-4 max-w-sm mx-auto">
+    <div className="bg-white shadow-lgn  rounded-lg py-7 px-4 max-w-sm mx-auto">
       <div className="flex items-center">
         <img src={image} alt={name} className="w-16 h-16 rounded-full object-cover" />
         <div className="ml-4">

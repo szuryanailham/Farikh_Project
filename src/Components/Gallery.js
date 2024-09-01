@@ -56,7 +56,7 @@ const Gallery = () => {
       {/* Pamflet */}
       <div className={`${IsSelect !== "Pamflet" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-5"}`}>
         {ArrayPamflet.map((item, id) => (
-          <div key={id} className="w-full h-full bg-cover bg-center rounded-md overflow-hidden">
+          <div key={id} className="w-full h-full bg-contain bg-center rounded-md overflow-hidden">
             <img src={item.img} alt={item.id} className="w-full h-full object-cover rounded-md aspect-[4/3] md:aspect-[3/2]" />
           </div>
         ))}

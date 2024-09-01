@@ -24,12 +24,12 @@ const Profile = () => {
             <p className="text-lg md:text-md leading-relaxed text-center md:text-left text-gray-700">{DescProfile}</p>
             {/* Media socials  */}
 
-            <div className="w-full text-center">
+            <div className="w-full text-left">
               <h2 className="mb-5 font-bold text-black text-xl">Click Here</h2>
-              <div className="flex space-x-7 mx-auto justify-center p-2 ">
+              <div className="flex space-x-7 mx-auto justify-center md:justify-start p-2 ">
                 {socialMedia.map((item) => (
                   <a className=" transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" key={item.id} href={`${item.Url}`}>
-                    <img className="md:w-7" src={`${item.Image}`} alt={`${item.id}`} />
+                    <img className="md:w-8" src={`${item.Image}`} alt={`${item.id}`} />
                   </a>
                 ))}
               </div>

@@ -3,7 +3,7 @@ import { logo } from "../assets/Utils";
 import { navLinks } from "../constants";
 import { CgMenuRightAlt } from "react-icons/cg";
 import { IoMdClose } from "react-icons/io";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
   const navRef = useRef(null);
@@ -31,15 +31,17 @@ const Navbar = () => {
       <nav ref={navRef} className="shadow-2xl bg-baseColor fixed md:sticky w-full">
         <div className="max-w-screen-xl max-h-min flex flex-wrap items-center justify-between mx-auto py-4 px-7 font-Trap z-[100">
           {/* logo brand */}
-          <a href="#home" className="cursor-pointer">
+          <Link smooth={true} duration={500} to="Home" className="cursor-pointer">
             <img src={logo} className="w-12" alt="Farikh logo" />
-          </a>
+          </Link>
 
           {/* item menu */}
           <ul className="hidden md:flex flex-row justify-center space-x-12 font-semibold p-3">
             {navLinks.map((item, id) => (
               <li key={id}>
-                <a href={`#${item.id}`}>{item.title}</a>
+                <Link to={`${item.id}`} smooth={true} duration={500} className="cursor-pointer">
+                  {item.title}
+                </Link>
               </li>
             ))}
           </ul>
@@ -65,9 +67,9 @@ const Navbar = () => {
         <ul className="font-semibold px-6 mt-3 divide-y divide-slate-200">
           {navLinks.map((item, id) => (
             <li key={id} className="py-5">
-              <a href={`${item.id}`} onClick={() => setIsActive(false)} className="hover:text-blue-500">
+              <Link to={`${item.id}`} smooth={true} duration={500} onClick={() => setIsActive(false)} className="hover:text-blue-500 cursor-pointer">
                 {item.title}
-              </a>
+              </Link>
             </li>
           ))}
           <li className="py-5">

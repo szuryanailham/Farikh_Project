@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <section className="w-full h-screen items-center text-center font-Trap px-10 py-[150px] md:h-screen">
+      <section id="Home" name="Hero" className="w-full h-screen items-center text-center font-Trap px-10 py-[150px] md:h-screen">
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}

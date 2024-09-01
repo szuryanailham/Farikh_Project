@@ -1,7 +1,7 @@
 import { Category, Category2, Category3, Instagram, Pinterest, Whatsapp, feed1, feed2, feed3, feed4, feed5, feed6, logo1, logo2, Banner1, Banner2, Pamflet1, Pamflet2 } from "../assets/Utils";
 export const navLinks = [
   {
-    id: "home",
+    id: "Home",
     title: "Home",
   },
   {
@@ -13,8 +13,8 @@ export const navLinks = [
     title: "Gallery",
   },
   {
-    id: "Tastemony",
-    title: "Tastemony",
+    id: "Testimony",
+    title: "Testimony",
   },
 ];
 
@@ -118,4 +118,37 @@ export const ArrayPamflet = [
   },
 ];
 
-export const DescTestimony = "Lorem ipsum odor amet, consectetuer adipiscing elit. Feugiat potenti class semper diam, imperdiet ultricies auctor. Lacinia natoque ipsum tempus dolor hendrerit primis in nostra?";
+export const DescTestimony = "Percayakan berbagai kebutuhan desain bisnismu di Farikh Design! Desain yang berkualitas dengan harga terjangkau. Tunggu apalagi? Hubungi Minfar sekarang ya, Kak!";
+
+export const TestimonyArray = [
+  {
+    id: 1,
+    img: "",
+    nama: "Musthofa",
+    comment: "Desainnya berkualitas, harga terjangkau cocok untuk pemilik usaha kecil seperti saya tanpa harus repot² desain sendiri ✨",
+  },
+  {
+    id: 2,
+    img: "",
+    nama: "Amelia",
+    comment: "Aku suka banget dengan pelayanannya yang fast res, kakaknya juga ramah, harganya terjangkau dikantong & juga desainya berkualitas buat aku yang masih pelajar 🤏🏻🤩 ",
+  },
+  {
+    id: 3,
+    img: "",
+    nama: "Bestari",
+    comment: "Saya sudah langganan desain di Farikh Design selama beberapa bulan ini untuk kebutuhan desain sosial media bisnisku, pelayanannya memuaskan, desainnya juga berkualitas 🤩",
+  },
+  {
+    id: 4,
+    img: "",
+    nama: "Istiqomah",
+    comment: "Ketiga kalinya aku repeat order desain banner ke kak farikh, keren dan garcep, pokoknya debest 🤩🥳 ",
+  },
+  {
+    id: 5,
+    img: "",
+    nama: "Syifa Azzahra",
+    comment: "ekomen buat order desain disini, desainnya selalu berkualitas, yang paling aku suka, kakaknya ramah polll dan solutif buat aku yang gak begitu paham sama desain 🥳",
+  },
+];
