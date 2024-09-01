@@ -4,5 +4,5 @@
 
 @font-face {
   font-family: "Trap-Black";
-  src: url("/src/assets/Font/Trap-Black.otf") format("opentype");
+  src: url("/src/assets/Font/Trap-Black.otf") format("opentype"), url("/src/assets/Font/Trap-Black.woff") format("woff"), url("/src/assets/Font/Trap-Black.woff2") format("woff2"), url("/src/assets/Font/Trap-Black.ttf") format("truetype");
 }
