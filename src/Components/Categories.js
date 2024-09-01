@@ -15,37 +15,37 @@ const Categories = () => {
       {/* Image Category */}
       <div className="p-5 flex flex-col md:flex-row gap-5">
         <motion.div
-          initial={{ opacity: 0, x: 50 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{
             ease: "linear",
             duration: 1,
-            x: { duration: 2 },
+            y: { duration: 2 },
           }}
           className="w-full h-[400px] lg:h-[400px] bg-cover bg-center bg-no-repeat rounded-lg"
           style={{ backgroundImage: `url(${Category})` }}
         ></motion.div>
         <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{
             ease: "linear",
             duration: 1,
-            x: { duration: 2 },
+            y: { duration: 2 },
           }}
           className="w-full h-[400px] lg:h-[400px] bg-cover bg-center bg-no-repeat rounded-lg"
           style={{ backgroundImage: `url(${Category2})` }}
         ></motion.div>
         <motion.div
-          initial={{ opacity: 0, x: 50 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{
             ease: "linear",
             duration: 1,
-            x: { duration: 2 },
+            y: { duration: 2 },
           }}
           className="w-full h-[400px] lg:h-[400px] bg-cover bg-center bg-no-repeat rounded-lg"
           style={{ backgroundImage: `url(${Category3})` }}

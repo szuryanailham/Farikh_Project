@@ -24,7 +24,7 @@ const Profile = () => {
             <p className="text-lg md:text-md leading-relaxed text-center md:text-left text-gray-700">{DescProfile}</p>
             {/* Media socials  */}
 
-            <div className="w-full text-left">
+            <div className="w-full text-center md:text-left">
               <h2 className="mb-5 font-bold text-black text-xl">Click Here</h2>
               <div className="flex space-x-7 mx-auto justify-center md:justify-start p-2 ">
                 {socialMedia.map((item) => (

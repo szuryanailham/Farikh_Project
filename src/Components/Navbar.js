@@ -3,7 +3,7 @@ import { logo } from "../assets/Utils";
 import { navLinks } from "../constants";
 import { CgMenuRightAlt } from "react-icons/cg";
 import { IoMdClose } from "react-icons/io";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { FaInstagram, FaPinterest, FaWhatsapp } from "react-icons/fa";
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -47,7 +47,7 @@ const Navbar = () => {
             ))}
           </ul>
           {/* Email address */}
-          <h3 className="hidden md:block font-Trap font-bold">User@gmail.com</h3>
+          <h3 className="hidden md:block font-Trap font-bold text-sm">Farikhdesign25@gmail.com</h3>
 
           {/* BurgerMenu */}
           <div
@@ -75,14 +75,14 @@ const Navbar = () => {
           ))}
           <li className="py-5">
             <a href="#asas" onClick={() => setIsActive(false)}>
-              User@gmail.com
+              Farikhdesign25@gmail.com
             </a>
           </li>
           <li className="py-5 flex gap-5">
-            <a href="Link">
+            <a href="http://pinterest.com/farikhdesign_">
               <FaPinterest />
             </a>
-            <a href="Link">
+            <a href="http://instagram.com/farikhah025">
               <FaInstagram />
             </a>
             <a href="Link">
