@@ -11,6 +11,7 @@ const Categories = () => {
           Category <span className="text-secondColor">Design</span>
         </h1>
       </div>
+      <p className="text-lg leading-relaxed text-center text-white md:w-[80%] mx-auto p-5">{categoryDesc}</p>
       {/* Image Category */}
       <div className="p-5 flex flex-col md:flex-row gap-5">
         <motion.div

@@ -1,6 +1,6 @@
 import React from "react";
 import { profile_img } from "../assets/Utils";
-import { DescProfile, DescProfile2, socialMedia } from "../constants";
+import { DescProfile, socialMedia } from "../constants";
 import { motion } from "framer-motion";
 
 const Profile = () => {
