@@ -4,6 +4,7 @@ import { navLinks } from "../constants";
 import { CgMenuRightAlt } from "react-icons/cg";
 import { IoMdClose } from "react-icons/io";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { FaInstagram, FaPinterest, FaWhatsapp } from "react-icons/fa";
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
   const navRef = useRef(null);
@@ -75,6 +76,17 @@ const Navbar = () => {
           <li className="py-5">
             <a href="#asas" onClick={() => setIsActive(false)}>
               User@gmail.com
+            </a>
+          </li>
+          <li className="py-5 flex gap-5">
+            <a href="Link">
+              <FaPinterest />
+            </a>
+            <a href="Link">
+              <FaInstagram />
+            </a>
+            <a href="Link">
+              <FaWhatsapp />
             </a>
           </li>
         </ul>
