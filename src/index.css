@@ -3,12 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Trap-Black";
-  src: url("/src/assets/Font/Trap-Black.woff2") format("woff2"), url("/src/assets/Font/Trap-Black.woff") format("woff"), url("/src/assets/Font/Trap-Black.ttf") format("truetype"), url("/src/assets/Font/Trap-Black.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-body {
-  font-family: "Trap-Black";
+  font-family: "Trap-black";
+  src: , url("/src/assets/Font/trap-black-webfont.woff") format("woff"), url("/src/assets/Font/trap-black-webfont.woff2") format("woff2");
 }

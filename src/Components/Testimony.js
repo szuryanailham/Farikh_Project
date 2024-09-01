@@ -41,7 +41,7 @@ const Testimony = () => {
             duration: 1,
             y: { duration: 1.5 },
           }}
-          className="text-lg leading-relaxed text-center text-white md:w-[80%] mx-auto"
+          className="text-lg font-Trap leading-relaxed text-center text-white md:w-[80%] mx-auto"
         >
           {DescTestimony}
         </motion.p>
