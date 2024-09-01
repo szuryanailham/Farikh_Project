@@ -12,16 +12,16 @@ const Testimony = () => {
     <section className="mt-5 p-5">
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex gap-5 p-2">
-          <div className="flex-[0_0_80%] min-w-0 md:flex-[0_0_30%]">
+          <div className="flex-[0_0_95%] min-w-0 md:flex-[0_0_30%]">
             <TestimonialCard image="https://github.com/shadcn.png" name="Jane Smith" rating={4} testimony="Great value for the price. Will definitely buy again." />
           </div>
-          <div className="flex-[0_0_80%] min-w-0 md:flex-[0_0_30%]">
+          <div className="flex-[0_0_95%] min-w-0 md:flex-[0_0_30%]">
             <TestimonialCard image="https://github.com/shadcn.png" name="Jane Smith" rating={4} testimony="Great value for the price. Will definitely buy again." />
           </div>
-          <div className="flex-[0_0_80%] min-w-0 md:flex-[0_0_30%]">
+          <div className="flex-[0_0_95%] min-w-0 md:flex-[0_0_30%]">
             <TestimonialCard image="https://github.com/shadcn.png" name="Jane Smith" rating={4} testimony="Great value for the price. Will definitely buy again." />
           </div>
-          <div className="flex-[0_0_80%] min-w-0 md:flex-[0_0_30%]">
+          <div className="flex-[0_0_95%] min-w-0 md:flex-[0_0_30%]">
             <TestimonialCard image="https://github.com/shadcn.png" name="Jane Smith" rating={4} testimony="Great value for the price. Will definitely buy again." />
           </div>
         </div>

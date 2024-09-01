@@ -4,7 +4,7 @@ const Gallery = () => {
   const [IsSelect, SetIsSelect] = useState("Feed");
   return (
     <section className=" w-full h-fit">
-      <h1 className="md:hidden font-Trap w-[90%] text-[40px] text-center font-extrabold p-4 leading-tight mx-auto mb-5">
+      <h1 className="font-Trap w-[80%] md:w-[40%] text-[40px] md:text-[50px] text-center font-extrabold p-4 leading-tight mx-auto">
         Top Portofolio <span className="text-secondColor">Design</span>
       </h1>
       {/* Category Button Gallery */}
@@ -29,34 +29,35 @@ const Gallery = () => {
       {/* ===================== Gallery =============== */}
 
       {/* FEED INSTAGRAM */}
-      <div className={`${IsSelect !== "Feed" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-5 px-5 mt-5 md:mt-10"}`}>
+      <div className={`${IsSelect !== "Feed" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-5"}`}>
         {ArrayFeed.map((item, id) => (
-          <div key={id} className="w-full h-auto bg-cover bg-center rounded-md">
-            <img src={item.img} alt={item.id} className="w-full h-auto object-cover rounded-md md:w-[90%] mx-auto" />
+          <div key={id} className="w-full h-full bg-cover bg-center rounded-md overflow-hidden">
+            <img src={item.img} alt={item.id} className="w-full h-full object-cover rounded-md aspect-[4/3] md:aspect-[3/2]" />
           </div>
         ))}
       </div>
+
       {/* LOGO  */}
-      <div className={`${IsSelect !== "Logo" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-5 px-5 mt-5 md:mt-10"}`}>
+      <div className={`${IsSelect !== "Logo" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-5"}`}>
         {ArrayLogo.map((item, id) => (
-          <div key={id} className="w-full h-auto bg-cover bg-center rounded-md">
-            <img src={item.img} alt={item.id} className="w-full h-auto object-cover rounded-md md:w-[90%] mx-auto" />
+          <div key={id} className="w-full h-full bg-cover bg-center rounded-md overflow-hidden">
+            <img src={item.img} alt={item.id} className="w-full h-full object-cover rounded-md aspect-[4/3] md:aspect-[3/2]" />
           </div>
         ))}
       </div>
       {/* Banner */}
-      <div className={`${IsSelect !== "Banner" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-5 px-5 mt-5 md:mt-10"}`}>
+      <div className={`${IsSelect !== "Banner" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-5"}`}>
         {ArrayBanner.map((item, id) => (
-          <div key={id} className="w-full h-auto bg-cover bg-center rounded-md">
-            <img src={item.img} alt={item.id} className="w-full h-auto object-cover rounded-md md:w-[90%] mx-auto" />
+          <div key={id} className="w-full h-full bg-cover bg-center rounded-md overflow-hidden">
+            <img src={item.img} alt={item.id} className="w-full h-full object-cover rounded-md aspect-[4/3] md:aspect-[3/2]" />
           </div>
         ))}
       </div>
       {/* Pamflet */}
-      <div className={`${IsSelect !== "Pamflet" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-5 px-5 mt-5 md:mt-10"}`}>
+      <div className={`${IsSelect !== "Pamflet" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-5"}`}>
         {ArrayPamflet.map((item, id) => (
-          <div key={id} className="w-full h-auto bg-cover bg-center rounded-md">
-            <img src={item.img} alt={item.id} className="w-full h-auto object-cover rounded-md md:w-[90%] mx-auto" />
+          <div key={id} className="w-full h-full bg-cover bg-center rounded-md overflow-hidden">
+            <img src={item.img} alt={item.id} className="w-full h-full object-cover rounded-md aspect-[4/3] md:aspect-[3/2]" />
           </div>
         ))}
       </div>

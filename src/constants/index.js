@@ -20,10 +20,8 @@ export const navLinks = [
 
 export const SubTitle = "Agensi design creative yang  siap mengubah ide-ide Anda menjadi visual yang memikat dan menarik.";
 
-export const DescProfile = "Spesialis dalam menciptakan desain visual yang kreatif dan efektif, saya memiliki pengalaman dalam berbagai proyek mulai dari branding hingga media sosial. ";
-
-export const DescProfile2 =
-  "Di portofolio ini, kamu akan menemukan karya-karya yang mencerminkan dedikasi saya terhadap estetika dan fungsionalitas. Jelajahi karya saya dan lihat bagaimana desain dapat mengubah ide menjadi kenyataan yang memukau";
+export const DescProfile =
+  "Spesialis dalam menciptakan desain visual yang kreatif dan efektif, saya memiliki pengalaman dalam berbagai proyek mulai dari branding hingga media sosial,Di portofolio ini, kamu akan menemukan karya-karya yang mencerminkan dedikasi saya terhadap estetika dan fungsionalitas. Jelajahi karya saya dan lihat bagaimana desain dapat mengubah ide menjadi kenyataan yang memukau ";
 
 export const socialMedia = [
   {
