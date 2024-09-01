@@ -45,7 +45,7 @@ const Hero = () => {
           type="button"
           class="mt-10 text-black bg-thirdColor focus:ring-2 focus:ring-black rounded-lg text-sm px-5 py-2.5 md:px-7 md:py-4 me-2 mb-2 font-bold"
         >
-          <a href="https://wa.me/6282327218112?text=Halo%20Farikh%20Design%21%20%F0%9F%91%8B%0A%0ASaya%20tertarik%20dengan%20jasa%20desain%20yang%20Anda%20tawarkan.%20Saya%20ingin%20mendapatkan%20informasi%20lebih%20lanjut%20mengenai%20layanan%20desain%20yang%20tersedia%20apakah%boleh%kak">
+          <a href="https://wa.me/6282327218112?text=Halo%20Farikh%20Design%21%20%F0%9F%91%8B%0A%0ASaya%20tertarik%20dengan%20jasa%20desain%20yang%20Anda%20tawarkan.%20Saya%20ingin%20mendapatkan%20informasi%20lebih%20lanjut%20mengenai%20layanan%20desain%20yang%20tersedia%20apakah%20boleh%20kak">
             Contact Me
           </a>
         </motion.button>
