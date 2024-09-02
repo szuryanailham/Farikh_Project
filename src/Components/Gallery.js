@@ -29,14 +29,14 @@ const Gallery = () => {
       {/* ===================== Gallery =============== */}
 
       {/* FEED INSTAGRAM */}
-      <div className={`${IsSelect !== "Feed" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-5"}`}>
+      <div className={`${IsSelect !== "Feed" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5"}`}>
         {ArrayFeed.map((item, id) => (
           <div key={id} className="w-full aspect-square bg-cover bg-center rounded-md overflow-hidden" style={{ backgroundImage: `url(${item.img})` }}></div>
         ))}
       </div>
 
       {/* LOGO  */}
-      <div className={`${IsSelect !== "Logo" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-5"}`}>
+      <div className={`${IsSelect !== "Logo" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5"}`}>
         {ArrayLogo.map((item, id) => (
           <div key={id} className="w-full aspect-square bg-cover bg-center rounded-md overflow-hidden" style={{ backgroundImage: `url(${item.img})` }}></div>
         ))}
@@ -50,7 +50,7 @@ const Gallery = () => {
         ))}
       </div>
       {/* Pamflet */}
-      <div className={`${IsSelect !== "Pamflet" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-5"}`}>
+      <div className={`${IsSelect !== "Pamflet" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5"}`}>
         {ArrayPamflet.map((item, id) => (
           <div key={id} className="w-full aspect-square bg-cover bg-center rounded-md overflow-hidden" style={{ backgroundImage: `url(${item.img})` }}></div>
         ))}
