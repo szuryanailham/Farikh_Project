@@ -63,7 +63,7 @@ const Navbar = () => {
       {/* ========== SIDEBAR =====  */}
       <div
         ref={sidebarRef}
-        className={`${isActive ? "translate-y-0" : "-translate-y-full"} font-Trap fixed top-0 left-0 w-full h-fit bg-baseColor flex flex-col p-2 py-3 md:hidden transition-transform duration-300 ease-in-out z-50 shadow-2xl`}
+        className={`${isActive ? "translate-y-0" : "-translate-y-full"} font-Trap fixed top-12 left-0 w-full h-fit bg-baseColor flex flex-col p-2 py-3 md:hidden transition-transform duration-300 ease-in-out z-50 shadow-2xl`}
       >
         <ul className="font-semibold px-6 mt-3 divide-y divide-slate-200">
           {navLinks.map((item, id) => (
