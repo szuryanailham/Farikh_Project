@@ -23,7 +23,7 @@ const Categories = () => {
             duration: 1,
             y: { duration: 2 },
           }}
-          className="w-full h-[400px] lg:h-[400px] bg-cover bg-center bg-no-repeat rounded-lg"
+          className="w-full md:w-[300px] h-[300px] bg-cover bg-center rounded-lg"
           style={{ backgroundImage: `url(${Category})` }}
         ></motion.div>
 
@@ -36,8 +36,21 @@ const Categories = () => {
             duration: 1,
             y: { duration: 2 },
           }}
-          className="w-full h-[400px] lg:h-[400px] bg-cover bg-center bg-no-repeat rounded-lg"
+          className="w-full md:w-[300px] h-[300px] bg-cover bg-center rounded-lg"
           style={{ backgroundImage: `url(${Category2})` }}
+        ></motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{
+            ease: "linear",
+            duration: 1,
+            y: { duration: 2 },
+          }}
+          className="w-full md:w-[300px] h-[300px] bg-cover bg-center rounded-lg"
+          style={{ backgroundImage: `url(${Category3})` }}
         ></motion.div>
         <motion.div
           initial={{ opacity: 0, y: -50 }}
@@ -48,10 +61,11 @@ const Categories = () => {
             duration: 1,
             y: { duration: 2 },
           }}
-          className="w-full h-[400px] lg:h-[400px] bg-cover bg-center bg-no-repeat rounded-lg"
+          className="w-full md:w-[300px] h-[300px] bg-cover bg-center rounded-lg"
           style={{ backgroundImage: `url(${Category3})` }}
         ></motion.div>
       </div>
+
       {/* Deskripsi */}
     </section>
   );
