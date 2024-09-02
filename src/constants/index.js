@@ -149,6 +149,6 @@ export const TestimonyArray = [
     id: 5,
     img: "",
     nama: "Syifa Azzahra",
-    comment: "ekomen buat order desain disini, desainnya selalu berkualitas, yang paling aku suka, kakaknya ramah polll dan solutif buat aku yang gak begitu paham sama desain 🥳",
+    comment: "Rekomen buat order desain disini, desainnya selalu berkualitas, yang paling aku suka, kakaknya ramah polll dan solutif buat aku yang gak begitu paham sama desain 🥳",
   },
 ];
