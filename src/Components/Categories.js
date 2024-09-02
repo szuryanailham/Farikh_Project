@@ -7,7 +7,7 @@ const Categories = () => {
     <section className="mb-5 mt-5" id="Gallery">
       {/* title */}
       <div className="mx-auto">
-        <h1 className="font-Trap w-[80%] md:w-[30%] text-[40px] md:text-[50px] text-center font-extrabold p-4 leading-tight mx-auto">
+        <h1 className="font-Trap w-[80%] md:w-[50%] text-[40px] md:text-[50px] text-center font-extrabold p-4 leading-tight mx-auto">
           Category <span className="text-secondColor">Design</span>
         </h1>
       </div>
@@ -26,6 +26,7 @@ const Categories = () => {
           className="w-full h-[400px] lg:h-[400px] bg-cover bg-center bg-no-repeat rounded-lg"
           style={{ backgroundImage: `url(${Category})` }}
         ></motion.div>
+
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
