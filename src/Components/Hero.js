@@ -28,7 +28,7 @@ const Hero = () => {
             duration: 1,
             y: { duration: 2 },
           }}
-          className="font-Trap font-bold mt-5 text-center text-md  md:text-[20px] md:w-[70%] md:mx-auto"
+          className="font-Trap mt-5 text-center text-md  md:text-[20px] md:w-[70%] md:mx-auto font-normal"
         >
           {SubTitle}
         </motion.p>

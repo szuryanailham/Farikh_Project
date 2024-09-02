@@ -9,7 +9,7 @@ module.exports = {
         thirdColor: "#FDC006",
       },
       fontFamily: {
-        Trap: ["Trap"],
+        Trap: ["Trap-black", "sans-serif"],
       },
       fontWeight: {
         light: 400,
