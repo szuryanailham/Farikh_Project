@@ -20,7 +20,7 @@ const Testimony = () => {
         </div>
       </div>
       {/* Title Testimony */}
-      <div className="mt-2 flex flex-col md:flex-row p-10 gap-5">
+      <div className="mt-2 flex flex-col md:flex-row gap-5">
         <div className="w-full md:w-[40%]">
           {/* Title */}
           <motion.h1
@@ -32,7 +32,7 @@ const Testimony = () => {
               duration: 1,
               y: { duration: 1.5 },
             }}
-            className="font-Trap text-[50px] text-center md:text-left font-extrabold p-4 leading-tight mx-auto md:ml-10"
+            className=" w-full font-Trap text-[50px] text-center md:text-left font-extrabold p-4 leading-tight mx-auto md:ml-10"
           >
             Client <span className="text-secondColor">Testimony</span>
           </motion.h1>
