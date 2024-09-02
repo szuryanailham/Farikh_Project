@@ -13,7 +13,7 @@ const Testimony = () => {
       <div className="overflow-hidden" ref={emblaRef}>
         <div className="flex gap-5 p-2">
           {TestimonyArray.map((item) => (
-            <div key={item.id} className="flex-[0_0_95%] min-w-0 md:flex-[0_0_30%]">
+            <div key={item.id} className="flex-[0_0_90%] min-w-0 md:flex-[0_0_30%]">
               <TestimonialCard image="https://github.com/shadcn.png" name={item.nama} rating={5} testimony={item.comment} />
             </div>
           ))}
