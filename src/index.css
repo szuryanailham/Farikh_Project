@@ -4,8 +4,7 @@
 
 @font-face {
   font-family: "Trap-black";
-  src: , url("/src/assets/Font/trap-black-webfont.woff") format("woff"), url("/src/assets/Font/trap-black-webfont.woff2") format("woff2"), url("/src/assets/Font/trap-black-webfont.ttf") format("truetype"),
-    url("/src/assets/Font/trap-black-webfont.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
+  src: url("/src/assets/Font/trap-black-webfont.eot");
+  src: url("/src/assets/Font/trap-black-webfont.woff?#iefix") format("embedded-opentype"), url("/src/assets/Font/trap-black-webfont.woff") format("woff"), url("/src/assets/Font/trap-black-webfont.ttf") format("truetype"),
+    url("/src/assets/Font/trap-black-webfont.svg#trap-black-webfont") format("svg");
 }
