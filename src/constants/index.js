@@ -1,4 +1,35 @@
-import { Category, Category2, Category3, Instagram, Pinterest, Whatsapp, feed1, feed2, feed3, feed4, feed5, feed6, logo1, logo2, Banner1, Banner2, Pamflet1, Pamflet2 } from "../assets/Utils";
+import {
+  Category,
+  Category2,
+  Category3,
+  Instagram,
+  Pinterest,
+  Whatsapp,
+  feed1,
+  feed2,
+  feed3,
+  feed4,
+  feed5,
+  feed6,
+  logo1,
+  logo2,
+  Banner1,
+  Banner2,
+  Pamflet1,
+  Pamflet2,
+  logo3,
+  logo4,
+  logo5,
+  logo6,
+  Banner3,
+  Banner4,
+  Banner5,
+  Banner6,
+  Pamflet3,
+  Pamflet4,
+  Pamflet5,
+  Pamflet6,
+} from "../assets/Utils";
 export const navLinks = [
   {
     id: "Home",
@@ -94,6 +125,22 @@ export const ArrayLogo = [
     title: "logo dua",
     img: logo2,
   },
+  {
+    title: "logo tiga",
+    img: logo3,
+  },
+  {
+    title: "logo empat",
+    img: logo4,
+  },
+  {
+    title: "logo lima",
+    img: logo5,
+  },
+  {
+    title: "logo enam",
+    img: logo6,
+  },
 ];
 
 export const ArrayBanner = [
@@ -105,6 +152,22 @@ export const ArrayBanner = [
     title: "Banner dua",
     img: Banner2,
   },
+  {
+    title: "Banner tiga",
+    img: Banner3,
+  },
+  {
+    title: "Banner empat",
+    img: Banner4,
+  },
+  {
+    title: "Banner lima",
+    img: Banner5,
+  },
+  {
+    title: "Banner enam",
+    img: Banner6,
+  },
 ];
 
 export const ArrayPamflet = [
@@ -115,6 +178,22 @@ export const ArrayPamflet = [
   {
     title: "Pamflet dua",
     img: Pamflet2,
+  },
+  {
+    title: "Pamflet tiga",
+    img: Pamflet3,
+  },
+  {
+    title: "Pamflet empat",
+    img: Pamflet4,
+  },
+  {
+    title: "Pamflet lima",
+    img: Pamflet5,
+  },
+  {
+    title: "Pamflet enam",
+    img: Pamflet6,
   },
 ];
 

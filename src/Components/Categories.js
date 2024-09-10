@@ -1,5 +1,5 @@
 import React from "react";
-import { Category, Category2, Category3 } from "../assets/Utils";
+import { Category, Category2, Category3, Category4 } from "../assets/Utils";
 import { categoryDesc } from "../constants";
 import { motion } from "framer-motion";
 const Categories = () => {
@@ -62,7 +62,7 @@ const Categories = () => {
             y: { duration: 2 },
           }}
           className="w-full md:w-[300px] h-[300px] bg-cover bg-center rounded-lg"
-          style={{ backgroundImage: `url(${Category3})` }}
+          style={{ backgroundImage: `url(${Category4})` }}
         ></motion.div>
       </div>
 

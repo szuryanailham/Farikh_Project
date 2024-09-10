@@ -4,7 +4,7 @@ const Gallery = () => {
   const [IsSelect, SetIsSelect] = useState("Feed");
   return (
     <section className=" w-full h-fit font-Trap">
-      <h1 className="font-Trap w-[80%] md:w-[40%] text-[40px] md:text-[50px] text-center font-extrabold p-4 leading-tight mx-auto">
+      <h1 className="font-Trap w-[80%] md:w-[40%] text-[40px] md:text-[50px] text-center font-extrabold p-4 leading-tight mx-auto py-4">
         Top Portofolio <span className="text-secondColor">Design</span>
       </h1>
       {/* Category Button Gallery */}
@@ -44,11 +44,10 @@ const Gallery = () => {
       {/* Banner */}
       <div className={`${IsSelect !== "Banner" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 gap-6 py-5 px-5"}`}>
         {ArrayBanner.map((item, id) => (
-          <div key={id} className="w-full h-full bg-cover bg-center rounded-md overflow-hidden">
-            <img src={item.img} alt={item.id} className="w-full h-full object-cover rounded-md aspect-[4/3] md:aspect-[3/2]" />
-          </div>
+          <img src={item.img} alt={item.id} className="w-full h-auto object-contain rounded-md aspect-[4/3] md:aspect-[3/2]" />
         ))}
       </div>
+
       {/* Pamflet */}
       <div className={`${IsSelect !== "Pamflet" ? "hidden" : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-5"}`}>
         {ArrayPamflet.map((item, id) => (

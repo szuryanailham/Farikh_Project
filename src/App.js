@@ -6,6 +6,7 @@ import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Profile from "./Components/Profile";
 import Testimony from "./Components/Testimony";
+
 function App() {
   return (
     <>
